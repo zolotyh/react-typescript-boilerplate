@@ -3,7 +3,6 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   extends: [
     "plugin:@typescript-eslint/recommended",
-    "plugin:jest/recommended",
     "plugin:react/recommended"
   ],
   rules: {
@@ -23,7 +22,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: "./src/**/*.test.ts?(x)",
+      files: "**/*.test.ts?(x)",
       rules: {
         "@typescript-eslint/explicit-function-return-type": "off"
       }
