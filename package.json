@@ -22,6 +22,11 @@
     "lint:fix": "eslint --debug \"src/**/*.ts?(x) --fix\"",
     "prettier": "prettier --write \"src/**/*.+(ts|tsx|scss|css)\""
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.(ts|tsx)": [
       "npm run lint:write",
