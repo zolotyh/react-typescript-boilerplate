@@ -1,5 +1,9 @@
-## Boilerplate
+# React typescript boilerplate
 
-Create react app with some custome settings.
+Typescript react boilerplace for fast prototyping with react
 
-Used  eslint instead of tslint and add some custom rules.
+# Usage
+
+```
+npx degit https://github.com/zolotyh/react-typescript-boilerplate.git
+```
